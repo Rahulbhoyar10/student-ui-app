@@ -35,11 +35,11 @@
         </configuration>
       </plugin>
 
-      <!-- WAR Plugin -->
+      <!-- WAR Plugin (UPDATED – Java 11+/17 compatible) -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
-        <version>2.6</version>
+        <version>3.4.0</version>
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
           <failOnMissingWebXml>false</failOnMissingWebXml>
